@@ -12,7 +12,4 @@ title: Illustrated
 	- Scroll zoom in/out where needed
 
 
-![illustrated](diagrams/cloudfront.drawio)
-
-
-
+![illustrated](cloudfront.drawio)
