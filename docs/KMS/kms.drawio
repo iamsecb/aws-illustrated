@@ -1,0 +1,412 @@
+<mxfile host="Electron" modified="2023-06-13T10:18:08.869Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.3.7 Chrome/112.0.5615.204 Electron/24.5.0 Safari/537.36" etag="osng8LKVCLwDq5JxGe26" version="21.3.7" type="device" pages="4">
+  <diagram name="Encryption Basics" id="hn2DeSoV_bvEE3dUmrLU">
+    <mxGraphModel dx="286" dy="71" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-2" value="ENCRYPTION" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="1360" width="160" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="hKZvyz9GrBfB1VOEjTi0-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1600" y="1509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-11" value="Takes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="hKZvyz9GrBfB1VOEjTi0-6" vertex="1" connectable="0">
+          <mxGeometry x="0.161" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-5" value="plaintext" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="1474" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="hKZvyz9GrBfB1VOEjTi0-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1790" y="1504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-25" value="Outputs" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="hKZvyz9GrBfB1VOEjTi0-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.4391" y="5" relative="1" as="geometry">
+            <mxPoint x="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Algorithm&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=16;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.automation;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="1474" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="hKZvyz9GrBfB1VOEjTi0-8" target="hKZvyz9GrBfB1VOEjTi0-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-10" value="Takes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="hKZvyz9GrBfB1VOEjTi0-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0476" y="6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;key&lt;/font&gt;" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Key.svg;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1634.5" y="1684" width="31" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Ciphertext&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#BF0816;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.encrypted_data;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1810" y="1470" width="62" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1491" y="1784" as="sourcePoint" />
+            <mxPoint x="1601" y="1724" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1781" y="1774" as="sourcePoint" />
+            <mxPoint x="1681" y="1724" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-19" value="Symmetric" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1255" y="1800" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-20" value="What?" style="text;strokeColor=#666666;fillColor=#f5f5f5;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;sketch=1;curveFitting=1;jiggle=2;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="1890" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-21" value="1. Same key is used to encrypt/decrypt&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;2. If the ciphertext is shared, you must deal with&lt;br style=&quot;font-size: 16px;&quot;&gt;securely sharing the key" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1195" y="1970" width="380" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-22" value="Asymmetric" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="1800" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-23" value="What?" style="text;strokeColor=#666666;fillColor=#f5f5f5;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;sketch=1;curveFitting=1;jiggle=2;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1730" y="1890" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hKZvyz9GrBfB1VOEjTi0-24" value="&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;1. Two sets of key; one to encrypt and one to decrypt&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 16px;&quot;&gt;2. In TLS/SSL only the server creates the public/private&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;key.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;3. Only the private key can be used to decrypt&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;4. Computationally this mode of encryption is costlier. In TLS/SSL,&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 16px;&quot;&gt;&amp;nbsp;this is used to exchange the symmetric key&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="1980" width="520" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-2" value="DIGITAL SIGNATURE" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="1540" y="2320" width="220" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-21" value="Integrity&lt;br&gt;(What)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1335" y="2460" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-22" value="AUthenticiy&lt;br&gt;(Who)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1788.5" y="2460" width="205" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-23" value="+" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1645" y="2470" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-24" value="How?" style="text;strokeColor=#666666;fillColor=#f5f5f5;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;sketch=1;curveFitting=1;jiggle=2;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1314" y="2550" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-25" value="Hashing provides data integrity by &lt;br&gt;generating a unique fixed-size hash value, &lt;br style=&quot;font-size: 16px;&quot;&gt;also known as a message digest or &lt;br&gt;checksum, for a given input data" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="2610" width="320" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-26" value="How?" style="text;strokeColor=#666666;fillColor=#f5f5f5;html=1;fontSize=16;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;sketch=1;curveFitting=1;jiggle=2;fontColor=#333333;" parent="1" vertex="1">
+          <mxGeometry x="1740" y="2560" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-27" value="1. Sign hash with private key to create a signature&amp;nbsp;&lt;br&gt;2. Use the public key to verify signature" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="2620" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="ub75EtSDP_nUtLoA5s88-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1605" y="2825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-43" value="Hash" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Architects Daughter;" parent="ub75EtSDP_nUtLoA5s88-33" vertex="1" connectable="0">
+          <mxGeometry x="-0.1773" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-29" value="Data" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1488" y="2800" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-31" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.document;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1619" y="2800" width="47" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1758" y="2825" as="targetPoint" />
+            <mxPoint x="1662" y="2825" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-32" value="#" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1619" y="2805" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="ub75EtSDP_nUtLoA5s88-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1635" y="2790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-36" value="Sign" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Architects Daughter;" parent="ub75EtSDP_nUtLoA5s88-35" vertex="1" connectable="0">
+          <mxGeometry x="-0.0335" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-34" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Key.svg;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1725" y="2720" width="31" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-41" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Digital Signature&lt;/font&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.ssl_padlock;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1775" y="2805" width="40.53" height="39.48" as="geometry" />
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1965" y="2820" as="sourcePoint" />
+            <mxPoint x="1875" y="2829.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ub75EtSDP_nUtLoA5s88-51" value="In &lt;b&gt;TLS/SSL&lt;/b&gt;, the CA takes the data from the&amp;nbsp;&lt;br style=&quot;font-size: 16px;&quot;&gt;CSR and hashes it and then &lt;font color=&quot;#0000ff&quot;&gt;signs&lt;/font&gt; it&lt;br style=&quot;font-size: 16px;&quot;&gt;with the CA&#39;s private key.&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;This is then attached to the certificate generated&lt;br style=&quot;font-size: 16px;&quot;&gt;by the CA&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="2740" width="400" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="S_xRi6pJyPhxdtbnkY3u-2" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;u&gt;How do you verify integrity?&lt;/u&gt;&lt;br&gt;&lt;br&gt;When you use the public to verify the signature it exposes&lt;br&gt;the hash. Run the data through the same hashing function and&amp;nbsp;&lt;br&gt;compare the exposed hash and generated hash. If it matches,&lt;br&gt;it is valid.&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1314" y="2910" width="246" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="S_xRi6pJyPhxdtbnkY3u-3" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;u&gt;How do you verify authenticity?&lt;/u&gt;&lt;br&gt;&lt;br&gt;Use the public key to verify&amp;nbsp;&lt;br&gt;signature&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="2910" width="246" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rRrQiQhDnhDCt81y1z-J" name="TLS/SSL">
+    <mxGraphModel dx="127" dy="-487" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yC4pBMufqg9UbEcT85PD-1" value="TLS/SSL" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="1570" y="1240" width="160" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-2" value="A TLS connection begins after the three-way hanshake..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1375" y="1330" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-5" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="1422" width="78" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-6" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.servers;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="1420" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-7" value="Hello&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fillColor=#e1d5e7;strokeColor=#005700;" parent="1" edge="1">
+          <mxGeometry x="-0.0857" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="1550" as="sourcePoint" />
+            <mxPoint x="1830" y="1550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-11" value="Hello" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fillColor=#6a00ff;strokeColor=#3700CC;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1827" y="1620" as="sourcePoint" />
+            <mxPoint x="1477" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-12" value="Agree on cipher suite.&amp;nbsp;&lt;br&gt;Server CA certificate contains&amp;nbsp;public key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="1600" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-13" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fillColor=#e1d5e7;strokeColor=#005700;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1486" y="1720" as="sourcePoint" />
+            <mxPoint x="1816" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-22" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Sends random data&lt;br style=&quot;border-color: var(--border-color); text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;by encrypting with public key&lt;br&gt;as a response&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="yC4pBMufqg9UbEcT85PD-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.2727" y="5" relative="1" as="geometry">
+            <mxPoint x="46" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-14" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1191" y="1500" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-15" value="Cipher Suites" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="965" y="1513" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-16" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1191" y="1640" width="50" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-17" value="Authentication" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="965" y="1690" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-18" value="1. Validate&lt;br style=&quot;font-size: 16px;&quot;&gt;server&#39;s cert&lt;br style=&quot;font-size: 16px;&quot;&gt;with CA&#39;s public&amp;nbsp;&lt;br style=&quot;font-size: 16px;&quot;&gt;key&lt;br&gt;&lt;br&gt;2. Use CA&#39;s public to verify&lt;br&gt;signature (authenticity)" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1258" y="1630" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-23" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="1840" width="50" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-24" value="Key Exchanges" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="965" y="1970" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-25" value="Pre-master is key&amp;nbsp;&lt;br style=&quot;font-size: 16px;&quot;&gt;is generated from public&amp;nbsp;&lt;br style=&quot;font-size: 16px;&quot;&gt;key" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="1855" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-27" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fillColor=#e1d5e7;strokeColor=#005700;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1480" y="1889.5" as="sourcePoint" />
+            <mxPoint x="1810" y="1889.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-28" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;span style=&quot;text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="yC4pBMufqg9UbEcT85PD-27" vertex="1" connectable="0">
+          <mxGeometry x="-0.2727" y="5" relative="1" as="geometry">
+            <mxPoint x="46" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-29" value="Decrypt pre-master key&amp;nbsp;&lt;br&gt;with private key" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1840" y="1865" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-33" value="Both sides generate master secret&lt;br style=&quot;font-size: 16px;&quot;&gt;from the pre-master key&lt;br style=&quot;font-size: 16px;&quot;&gt;to encrypt decrypt data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1487" y="2040" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="yC4pBMufqg9UbEcT85PD-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1365.5" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-34" value="pre-master" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/mscae/Key.svg;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="1940" width="31" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="yC4pBMufqg9UbEcT85PD-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1879" y="2040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-35" value="pre-master" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=16;image=img/lib/mscae/Key.svg;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1863.5" y="1940" width="31" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-36" value="symmetric&lt;br&gt;key" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1870" y="2047" width="25" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-37" value="symmetric&lt;br&gt;key" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1350" y="2047" width="25" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-41" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Architects Daughter&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Same pre-master key with&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: &amp;quot;Architects Daughter&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;Architects Daughter&amp;quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;client and server&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;align=center;" parent="1" vertex="1">
+          <mxGeometry x="1517" y="1946" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-42" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1510" y="1986" as="sourcePoint" />
+            <mxPoint x="1430" y="1976" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yC4pBMufqg9UbEcT85PD-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1750" y="1990" as="sourcePoint" />
+            <mxPoint x="1820" y="1970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1750" y="1990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JD2z7dt3bIrRkVodkUPy-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;(SSL/TLS&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;version, cipher suite, &lt;br&gt;session ID and extensions)&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+          <mxGeometry x="1257.5" y="1498" width="210" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="anjLRryCN9ELag7sL0KW" name="KMS - CMK">
+    <mxGraphModel dx="612" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="V_PuFB8Ck-VwxUbPeJU6" name="KMS - DEK">
+    <mxGraphModel dx="-215" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qHVxIcK2OveabOr6Al0F-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="TntNPaxIclQ6x14UXHUs-3" target="qHVxIcK2OveabOr6Al0F-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qHVxIcK2OveabOr6Al0F-3" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot; style=&quot;font-size: 15px;&quot;&gt;generate&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" parent="qHVxIcK2OveabOr6Al0F-2" vertex="1" connectable="0">
+          <mxGeometry x="0.0181" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-3" value="CMK" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=16;image=img/lib/mscae/Key.svg;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="570" width="31" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=16;fontColor=#000000;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="595" as="targetPoint" />
+            <mxPoint x="1313" y="595" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-5" value="provides plaintext/ciphertext keys" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="TntNPaxIclQ6x14UXHUs-4" vertex="1" connectable="0">
+          <mxGeometry x="0.1565" y="-3" relative="1" as="geometry">
+            <mxPoint x="-18" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=16;fontColor=#000000;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="TntNPaxIclQ6x14UXHUs-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1870" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-8" value="&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;user/&lt;br&gt;service" style="shape=actor;whiteSpace=wrap;html=1;fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="560" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-9" value="KMS does not use DEK to encrypt anything; the user does or the service using KMS does. So the key is discarded after generation." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="760" width="118" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=16;fontColor=#000000;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="610" as="targetPoint" />
+            <mxPoint x="1490" y="660" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-11" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.key;fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1440.5" y="685" width="28.000000000000004" height="28.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-12" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.encryption_key;fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1515" y="685" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;ciphertext&lt;/span&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="572" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-15" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.locked;fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1890" y="582.5" width="10" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-17" value="encrypt" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1750" y="540" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-18" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.encryption_key;fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1930" y="574" width="36" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-19" value="1. you can store encrypted data and ciphertext version of the key together&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;2. To decrypt, use CMK to decrypt encrypted key to decrypt ciphertext." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="2020" y="630" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-21" value="Plaintext version&lt;br style=&quot;font-size: 16px;&quot;&gt;provided so you&lt;br style=&quot;font-size: 16px;&quot;&gt;can use it immediately" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1390" y="770" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-22" value="Provides a ciphertext version. This can be decrypted by CMK so in the future you can decrypt something&amp;nbsp;&lt;br style=&quot;font-size: 16px;&quot;&gt;encrypted by DEK." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1515" y="740" width="229" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qHVxIcK2OveabOr6Al0F-1" value="&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot; face=&quot;Architects Daughter&quot;&gt;Data encryption&lt;br&gt;key (DEK)&lt;/font&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Key.svg;" parent="1" vertex="1">
+          <mxGeometry x="1290" y="570" width="31" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hLcfouuYYuyzs2491k0w-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=16;fontColor=#000000;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="TntNPaxIclQ6x14UXHUs-8" target="TntNPaxIclQ6x14UXHUs-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1870" y="590" as="targetPoint" />
+            <mxPoint x="1710" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-16" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.key;fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1740" y="577" width="18.000000000000004" height="28.000000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="hLcfouuYYuyzs2491k0w-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;fontSize=16;fontColor=#000000;sketch=1;curveFitting=1;jiggle=2;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" source="TntNPaxIclQ6x14UXHUs-16" target="TntNPaxIclQ6x14UXHUs-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1870" y="590" as="targetPoint" />
+            <mxPoint x="1768" y="591" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TntNPaxIclQ6x14UXHUs-13" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;plaintext&lt;/font&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fontSize=16;fontColor=#000000;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="571" width="30" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hLcfouuYYuyzs2491k0w-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;exitX=-0.015;exitY=0.067;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1777" y="692.03" as="sourcePoint" />
+            <mxPoint x="1750" y="626" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1750" y="626" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hLcfouuYYuyzs2491k0w-4" value="Plaintext version of key &lt;br&gt;is discarded&lt;br style=&quot;font-size: 16px;&quot;&gt;after &lt;br&gt;encrypting payload&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" parent="1" vertex="1">
+          <mxGeometry x="1790" y="700" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yfGoWLAgxQ_-GfDcBoKu-1" value="DEK" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+          <mxGeometry x="1580" y="430" width="160" height="51" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
