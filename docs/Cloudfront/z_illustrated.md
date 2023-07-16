@@ -7,9 +7,8 @@ title: Illustrated
 
     For the best viewing experience:
 
-	- Click on the image
-	- Click fit to screen button
-	- Scroll zoom in/out where needed
+	- Click on the image to enlarge
+	- Click pencil icon to view in drawio editor
 
 
 ![illustrated](cloudfront.drawio)
